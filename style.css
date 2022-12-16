@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ff8c42;
+}
+
+body {
+  height: auto;
+  width: 100vw;
+  background-color: #151515;
+}
+
+#top {
+  height: auto;
+  width: 100%;
+}
+#top .container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 35px;
+}
+#top .container .logo {
+  display: flex;
+  gap: 20px;
+}
+#top .container .logo h1 {
+  font-family: Quicksand;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 60px;
+}
+#top .container .navbar .main-menu {
+  list-style: none;
+  display: flex;
+  gap: 55px;
+  font-family: Quicksand;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#banner {
+  height: auto;
+  width: 100%;
+}
+#banner .banner-container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+}
+#banner .banner-container .banner-info {
+  padding-top: 100px;
+}
+#banner .banner-container .banner-info h1 {
+  font-family: Quicksand;
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 120px;
+  height: 125px;
+  width: 562px;
+}
+#banner .banner-container .banner-info p {
+  font-family: Quicksand;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  height: 160px;
+  width: 379px;
+  padding-top: 50px;
+}
+#banner .banner-container .banner-info .input-s {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+#banner .banner-container .banner-info .input-s .yazi {
+  height: 48px;
+  width: 283px;
+  border-radius: 5px;
+  border-color: #ff8c42;
+  background-color: transparent;
+  border-width: 2px;
+}
+#banner .banner-container .banner-info .input-s .search {
+  height: 48px;
+  width: 198px;
+  border-radius: 5px;
+  background: #ff8c42;
+  color: white;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  cursor: pointer;
+}
+#banner .banner-container .banner-info .try {
+  height: 50px;
+  width: 180px;
+  border-radius: 5px;
+  color: white;
+  background: #ff8c42;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  cursor: pointer;
+}
+#banner .banner-container .image img {
+  height: 610px;
+}
+
+#menu-list {
+  width: 100%;
+  height: auto;
+}
+#menu-list .list-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+#menu-list .list-container .kombo {
+  display: flex;
+}
+#menu-list .list-container .kombo .left-image img {
+  height: 650px;
+}
+#menu-list .list-container .kombo .moko {
+  width: 66%;
+}
+#menu-list .list-container .kombo .moko .menu-name h1 {
+  font-family: quicksand;
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+#menu-list .list-container .kombo .list-menu {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#menu-list .list-container .kombo .list-menu .left-list h1 {
+  font-family: quicksand;
+  font-size: 25px;
+  line-height: 48px;
+  letter-spacing: 7px;
+  text-align: center;
+  color: #ffddc8;
+  padding-top: 20px;
+}
+#menu-list .list-container .kombo .list-menu .left-list ul {
+  list-style: none;
+}
+#menu-list .list-container .kombo .list-menu .left-list ul li {
+  font-family: quicksand;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.4em;
+  color: #ffddc8;
+}
+#menu-list .list-container .kombo .list-menu .right-list h1 {
+  font-family: quicksand;
+  font-size: 25px;
+  letter-spacing: 7px;
+  line-height: 48px;
+  color: #ffddc8;
+  text-align: center;
+  padding-top: 20px;
+}
+#menu-list .list-container .kombo .list-menu .right-list .card {
+  padding-bottom: 20px;
+  position: relative;
+}
+#menu-list .list-container .kombo .list-menu .right-list .card li {
+  color: #ffddc8;
+  font-family: quicksand;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  line-height: 40px;
+  list-style: none;
+}
+#menu-list .list-container .kombo .list-menu .right-list .card p {
+  font-family: quicksand;
+  font-size: 7px;
+  font-weight: 400;
+  color: #ffddc8;
+  letter-spacing: 2px;
+}
+#menu-list .list-container .kombo .list-menu .right-list button {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #ff8c42;
+  color: white;
+  position: absolute;
+  right: 300px;
+}/*# sourceMappingURL=style.css.map */

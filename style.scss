@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ff8c42;
+}
+body {
+  height: auto;
+  width: 100vw;
+  background-color: #151515;
+}
+#top {
+  height: auto;
+  width: 100%;
+
+  .container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 35px;
+
+    .logo {
+      display: flex;
+      gap: 20px;
+
+      h1 {
+        font-family: Quicksand;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 60px;
+      }
+    }
+    .navbar {
+      .main-menu {
+        list-style: none;
+        display: flex;
+        gap: 55px;
+        font-family: Quicksand;
+        font-size: 22px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+#banner {
+  height: auto;
+  width: 100%;
+
+  .banner-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    .banner-info {
+      padding-top: 100px;
+      h1 {
+        font-family: Quicksand;
+        font-size: 96px;
+        font-weight: 600;
+        line-height: 120px;
+        height: 125px;
+        width: 562px;
+      }
+
+      p {
+        font-family: Quicksand;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 45px;
+        height: 160px;
+        width: 379px;
+        padding-top: 50px;
+      }
+      .input-s {
+        padding-top: 50px;
+        padding-bottom: 10px;
+
+        .yazi {
+          height: 48px;
+          width: 283px;
+          border-radius: 5px;
+          border-color: #ff8c42;
+          background-color: transparent;
+          border-width: 2px;
+        }
+        .search {
+          height: 48px;
+          width: 198px;
+          border-radius: 5px;
+          background: #ff8c42;
+          color: white;
+          font-family: Quicksand;
+          font-size: 15px;
+          font-weight: 600;
+          line-height: 25px;
+          cursor: pointer;
+        }
+      }
+      .try {
+        height: 50px;
+        width: 180px;
+        border-radius: 5px;
+        color: white;
+        background: #ff8c42;
+        font-family: Quicksand;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        cursor: pointer;
+      }
+    }
+    .image {
+      img {
+        height: 610px;
+      }
+    }
+  }
+}
+#menu-list {
+  width: 100%;
+  height: auto;
+  .list-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    .kombo {
+      display: flex;
+      .left-image {
+        img {
+          height: 650px;
+        }
+      }
+      .moko {
+        width: 66%;
+
+        .menu-name {
+          h1 {
+            font-family: quicksand;
+            font-size: 100px;
+            font-weight: 400;
+            text-align: center;
+
+            letter-spacing: 0.04em;
+          }
+        }
+      }
+      .list-menu {
+        padding-top: 20px;
+        display: flex;
+
+        justify-content: space-evenly;
+        .left-list {
+          h1 {
+            font-family: quicksand;
+            font-size: 25px;
+            line-height: 48px;
+            letter-spacing: 7px;
+            text-align: center;
+            color: #ffddc8;
+            padding-top: 20px;
+          }
+
+          ul {
+            list-style: none;
+            li {
+              font-family: quicksand;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 40px;
+              letter-spacing: 0.4em;
+
+              color: #ffddc8;
+            }
+          }
+        }
+        .right-list {
+          h1 {
+            font-family: quicksand;
+            font-size: 25px;
+            letter-spacing: 7px;
+            line-height: 48px;
+            color: #ffddc8;
+            text-align: center;
+            padding-top: 20px;
+          }
+          .card {
+            padding-bottom: 20px;
+            position: relative;
+            li {
+              color: #ffddc8;
+              font-family: quicksand;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 40px;
+              letter-spacing: 0em;
+              text-align: center;
+              line-height: 40px;
+              list-style: none;
+            }
+            p {
+              font-family: quicksand;
+              font-size: 7px;
+              font-weight: 400;
+              color: #ffddc8;
+              letter-spacing: 2px;
+            }
+          }
+            button {
+            height: 30px;
+            width: 200px;
+            border-radius: 5px;
+            background-color: #ff8c42;
+            color: white;
+            position: absolute;
+            right: 300px;
+          }
+        }
+      }
+    }
+  }
+}
